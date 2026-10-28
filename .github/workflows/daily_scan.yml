@@ -31,7 +31,7 @@ jobs:
         env:
           EMAIL_BASE_URL: ${{ secrets.EMAIL_BASE_URL || 'https://api.sendbyte.africa' }}
           EMAIL_API_KEY: ${{ secrets.EMAIL_API_KEY }}
-          EMAIL_FROM_EMAIL: ${{ secrets.EMAIL_FROM_EMAIL || 'kontributa@eyitayo.online' }}
+          EMAIL_FROM_EMAIL: ${{ secrets.EMAIL_FROM_EMAIL || 'radar@eyitayo.online' }}
           EMAIL_FROM_NAME: ${{ secrets.EMAIL_FROM_NAME || 'Radar Opportunities' }}
           ALERT_RECIPIENT_EMAIL: ${{ secrets.ALERT_RECIPIENT_EMAIL || 'ezekieleyitayo2020@gmail.com' }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
