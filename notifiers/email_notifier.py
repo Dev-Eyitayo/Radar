@@ -38,7 +38,7 @@ class EmailNotifier:
             title = opp.get("title", "Opportunity")
             cat = opp.get("category", "")
             loc = opp.get("location", "")
-            apply_url = opp.get("apply_url") or opp.get("lab_url", "")
+            apply_url = opp.get("apply_url") or opp.get("lab_url") or opp.get("url", "")
             desc = opp.get("description", "")
             pi = opp.get("pi_name", "")
             email = opp.get("email", "")

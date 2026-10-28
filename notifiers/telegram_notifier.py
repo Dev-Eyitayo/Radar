@@ -25,7 +25,7 @@ class TelegramNotifier:
         title = opp.get("title", "New Opportunity")
         loc = opp.get("location", "Nigeria")
         cat = opp.get("category", "")
-        url = opp.get("apply_url") or opp.get("lab_url", "")
+        url = opp.get("apply_url") or opp.get("lab_url") or opp.get("url", "")
         pi = opp.get("pi_name", "")
         nysc_tag = opp.get("nysc_status", "No NYSC Required")
 
