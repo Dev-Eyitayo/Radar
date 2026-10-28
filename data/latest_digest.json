@@ -42,19 +42,6 @@
     "organization": "Moniepoint",
     "title": "Engineering Relations Partner",
     "category": "Tech / Early-Career Role",
-    "location": "Remote, India; Remote, Kenya; Remote, Lagos, Nigeria; Remote, Pakistan; Remote, Poland; Remote, South Africa; Remote, Spain",
-    "apply_url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4874410101",
-    "portal_url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4874410101",
-    "description": "About Moniepoint Moniepoint Inc. is Africa’s all-in-one financial platform, helping 20 million businesses and individuals access seamless payments, banking, credit, cross-border, and business management tools each month.&nbsp; As Nigeria’s largest merchant acquirer, we power most of the country’s po...",
-    "nysc_status": "No NYSC Required / Tech Track",
-    "nysc_reason": "Tech Role: Skills-based qualification (No NYSC clause)",
-    "id": "1593ea0007e02b73b10f84e380b57beffff05819a08755604ef47dd7f3dd336a",
-    "is_brand_new": false
-  },
-  {
-    "organization": "Moniepoint",
-    "title": "Engineering Relations Partner",
-    "category": "Tech / Early-Career Role",
     "location": "Remote, Portugal",
     "apply_url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4997794101",
     "portal_url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4997794101",
@@ -62,6 +49,19 @@
     "nysc_status": "No NYSC Required / Tech Track",
     "nysc_reason": "Tech Role: Skills-based qualification (No NYSC clause)",
     "id": "90b731971f835a58a97bdaedbd6adb79f38dcba6322d36c9e811be8290fcbd0d",
+    "is_brand_new": false
+  },
+  {
+    "organization": "Moniepoint",
+    "title": "Engineering Relations Partner",
+    "category": "Tech / Early-Career Role",
+    "location": "Remote, India; Remote, Kenya; Remote, Lagos, Nigeria; Remote, Pakistan; Remote, Poland; Remote, South Africa; Remote, Spain",
+    "apply_url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4874410101",
+    "portal_url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4874410101",
+    "description": "About Moniepoint Moniepoint Inc. is Africa’s all-in-one financial platform, helping 20 million businesses and individuals access seamless payments, banking, credit, cross-border, and business management tools each month.&nbsp; As Nigeria’s largest merchant acquirer, we power most of the country’s po...",
+    "nysc_status": "No NYSC Required / Tech Track",
+    "nysc_reason": "Tech Role: Skills-based qualification (No NYSC clause)",
+    "id": "1593ea0007e02b73b10f84e380b57beffff05819a08755604ef47dd7f3dd336a",
     "is_brand_new": false
   },
   {
@@ -127,19 +127,6 @@
     "nysc_status": "No NYSC Required / Skills-First",
     "nysc_reason": "Tech Role: Skills-based qualification (No NYSC clause)",
     "id": "a654d2744025e8c312dfd765bb3146be7410d946eacd7d29497d4d996aa577f2",
-    "is_brand_new": false
-  },
-  {
-    "organization": "FairMoney",
-    "title": "Android Engineer",
-    "category": "Fintech / Tech Scaleup",
-    "location": "Lagos, Nigeria",
-    "apply_url": "https://apply.workable.com/fairmoney/j/BD654BACB7/",
-    "portal_url": "https://apply.workable.com/fairmoney/j/BD654BACB7/",
-    "description": "Open position at FairMoney (Lagos, Nigeria).",
-    "nysc_status": "No NYSC Required / Skills-First",
-    "nysc_reason": "Eligible: No NYSC barrier specified",
-    "id": "69d76599236f4ad114f11cf02cdb2e6641aed3ee89c6228bec51612fcb5ed19e",
     "is_brand_new": false
   },
   {
@@ -401,6 +388,26 @@
     "is_brand_new": false
   },
   {
+    "id": "19a5d9ce709fba6d97673affcbae07e194d50292be4bf1ce90099e3bf26947c2",
+    "organization": "Active Research Lab (Preprint)",
+    "department": "Computational Science / AI",
+    "title": "Research Lab Lead on: Aligning Large Language Models for Safety in African Languages: A Case Stud...",
+    "pi_name": "Valdini Douglace Lemofouet, Blessing Ngozi Uzor, Paula Chikaodinaka Anyanwu",
+    "pi_role": "Publishing Authors & Principal Investigators",
+    "email": "Contact via http://arxiv.org/abs/2610.37245v1",
+    "category": "Academic Research Assistant",
+    "location": "Nigeria / West Africa Research",
+    "lab_url": "http://arxiv.org/abs/2610.37245v1",
+    "apply_url": "http://arxiv.org/abs/2610.37245v1",
+    "research_focus": "Aligning Large Language Models for Safety in African Languages: A Case Study of Hausa",
+    "pitch_angle": "Referencing their recent paper published on 2026-10-27 and offering to build API pipelines, test harnesses, or data scrapers.",
+    "description": "Safety alignment research for large language models (LLMs) remains concentrated on high-resource languages, leaving open how existing alignment methods perform in low-resource, cul...",
+    "published_date": "2026-10-27",
+    "nysc_status": "No NYSC Required (Direct Author Outreach)",
+    "nysc_reason": "Academic collaboration and RA support for published preprints have zero NYSC requirements.",
+    "is_brand_new": true
+  },
+  {
     "id": "b74bd83727c626dacc06758edcd78f109fc85a7ea0cf41cdb39fc34d900086a7",
     "organization": "Active Research Lab (Preprint)",
     "department": "Computational Science / AI",
@@ -416,26 +423,6 @@
     "pitch_angle": "Referencing their recent paper published on 2026-05-14 and offering to build API pipelines, test harnesses, or data scrapers.",
     "description": "Sub-Saharan Africa faces persistently high student-teacher ratios and shortages of qualified teachers, limiting students' access to personalized learning support and formative asse...",
     "published_date": "2026-05-14",
-    "nysc_status": "No NYSC Required (Direct Author Outreach)",
-    "nysc_reason": "Academic collaboration and RA support for published preprints have zero NYSC requirements.",
-    "is_brand_new": false
-  },
-  {
-    "id": "2a74a9c4fa694fd53d884557fd1cba70486d0828950dc93b6ff83161986b9615",
-    "organization": "Active Research Lab (Preprint)",
-    "department": "Computational Science / AI",
-    "title": "Research Lab Lead on: TinyBayes: Closed-Form Bayesian Inference via Jacobi Prior for Real-Time Im...",
-    "pi_name": "Shouvik Sardar, Sourish Das",
-    "pi_role": "Publishing Authors & Principal Investigators",
-    "email": "Contact via http://arxiv.org/abs/2605.06333v1",
-    "category": "Academic Research Assistant",
-    "location": "Nigeria / West Africa Research",
-    "lab_url": "http://arxiv.org/abs/2605.06333v1",
-    "apply_url": "http://arxiv.org/abs/2605.06333v1",
-    "research_focus": "TinyBayes: Closed-Form Bayesian Inference via Jacobi Prior for Real-Time Image Classification on Edge Devices",
-    "pitch_angle": "Referencing their recent paper published on 2026-05-07 and offering to build API pipelines, test harnesses, or data scrapers.",
-    "description": "Cocoa (Theobroma cacao) is a critical cash crop for millions of smallholder farmers in West Africa, where Cocoa Swollen Shoot Virus Disease (CSSVD) and anthracnose cause devastatin...",
-    "published_date": "2026-05-07",
     "nysc_status": "No NYSC Required (Direct Author Outreach)",
     "nysc_reason": "Academic collaboration and RA support for published preprints have zero NYSC requirements.",
     "is_brand_new": false
