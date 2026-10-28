@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Environment variables & secrets
+.env
+.env.local
+
+# Data (seen opportunities state is tracked, but local cache ignored if desired)
+*.log

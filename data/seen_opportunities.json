@@ -1,0 +1,122 @@
+{
+  "5dda5f8737a4c7c71718ec89ebd276dd3db3713966a191fa3d9526158cb3ee62": {
+    "organization": "Moniepoint",
+    "title": "HatchDev Graduate Engineering Academy",
+    "apply_url": "https://boards.greenhouse.io/moniepoint",
+    "first_seen": "2026-10-28T00:39:58.181238+00:00"
+  },
+  "582acd150685aa0df4170214171624cb73e501a5eb230bb23b36b70f97d7bc99": {
+    "organization": "Interswitch",
+    "title": "Interswitch Trainee Programme (Engineering Track)",
+    "apply_url": "https://interswitch.workable.com",
+    "first_seen": "2026-10-28T00:39:58.181238+00:00"
+  },
+  "c1795acdc4cd97a8372007ebbd08ff643b6e70b5f51ee5a342184e0f4190ae04": {
+    "organization": "PwC Nigeria",
+    "title": "PwC Graduate Internship Programme (Pre-NYSC)",
+    "apply_url": "https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers",
+    "first_seen": "2026-10-28T00:39:58.181238+00:00"
+  },
+  "85caadfaed5ad6be6433f231d7e9636c065403d4b28a74db1dc1f866ed025113": {
+    "organization": "KPMG Nigeria",
+    "title": "KPMG Pre-NYSC Advisory & Tech Internship",
+    "apply_url": "https://kpmg.com/ng/careers",
+    "first_seen": "2026-10-28T00:39:58.181238+00:00"
+  },
+  "e830cf729e1d2accb488799f6a68e904d784c0682531ac5572ba958017f96ab7": {
+    "organization": "ARM Holding",
+    "title": "ARM Young Talent Programme (AYTP)",
+    "apply_url": "https://arm.com.ng/young-talent-programme",
+    "first_seen": "2026-10-28T00:39:58.181238+00:00"
+  },
+  "8b85fabfd4005c571758f27e974b2fbfa56be91269606d19b6b239320644d02c": {
+    "organization": "Kuda Bank",
+    "title": "Junior Backend / Fullstack Developer Track",
+    "apply_url": "https://kuda.com/careers",
+    "first_seen": "2026-10-28T00:39:58.181238+00:00"
+  },
+  "0dc40242f592d5626cec889cdf4760619ceff5c5cdf3376004ff855eee3490ce": {
+    "organization": "Ventures Platform",
+    "title": "Venture Capital Analyst Fellowship",
+    "apply_url": "https://venturesplatform.com/careers",
+    "first_seen": "2026-10-28T00:39:58.181238+00:00"
+  },
+  "da0210c9ef36fb081fec36b6569d093ed5a274cdce3dd46fa0291d92f2524355": {
+    "organization": "Flutterwave",
+    "title": "Graduate Developer Internship",
+    "apply_url": "https://flutterwave.com/careers",
+    "first_seen": "2026-10-28T00:39:58.181238+00:00"
+  },
+  "5084d3a7621733d7ac440283ca19359f5b6327147701d868b31807483d9fefd8": {
+    "organization": "University of Ibadan (UI)",
+    "title": "Graduate Research Assistant in Computational Intelligence & Data Systems",
+    "apply_url": "https://sci.ui.edu.ng/computer-science",
+    "first_seen": "2026-10-28T00:39:58.181238+00:00"
+  },
+  "e17c0f518661bd6a76f215de69aa152140cd4fbcdd1e03dc131183b71cb04ee8": {
+    "organization": "University of Ibadan (UI)",
+    "title": "Research Assistant in Signal Processing & Embedded Software",
+    "apply_url": "https://tech.ui.edu.ng/electrical-engineering",
+    "first_seen": "2026-10-28T00:39:58.181238+00:00"
+  },
+  "1260e3185e1a5a6552b38b7161a4e0e950c47c15e8084ae38d871335bd3c1876": {
+    "organization": "FUNAAB",
+    "title": "Research Assistant in Agricultural Informatics & Machine Learning",
+    "apply_url": "https://funaab.edu.ng/department-of-computer-science/",
+    "first_seen": "2026-10-28T00:39:58.181238+00:00"
+  },
+  "229c4b04adcf906fb52e4876d589c1a32429a083731d5847b83e1064215a2db3": {
+    "organization": "Covenant University (Ota)",
+    "title": "Graduate Research Assistant in Health Informatics & Computational Genomics",
+    "apply_url": "https://ace.covenantuniversity.edu.ng",
+    "first_seen": "2026-10-28T00:39:58.181238+00:00"
+  },
+  "bd070034ef29f3d217d211118831ee204c02e3ef9fd8c6d3870e7b30e3ceff7e": {
+    "organization": "Covenant University (Ota)",
+    "title": "Junior Research Fellow in Applied Machine Learning & NLP",
+    "apply_url": "https://covenantuniversity.edu.ng",
+    "first_seen": "2026-10-28T00:39:58.181238+00:00"
+  },
+  "5b69cb4d5d3959237d3c965c70e1d7c2e3a6db15631e3ea46c5df69d8fcb18a1": {
+    "organization": "University of Lagos (UNILAG)",
+    "title": "Research Assistant in Intelligent Control Systems & Automation",
+    "apply_url": "https://unilag.edu.ng",
+    "first_seen": "2026-10-28T00:39:58.181238+00:00"
+  },
+  "a90a26fbfb5685b5dfa04b39ddb8e40ce6069447b2380bd73db177eecf53adfb": {
+    "organization": "Data Science Nigeria (DSN AI Lab)",
+    "title": "AI Research Fellow & Fullstack Engineer (Pre-NYSC)",
+    "apply_url": "https://datasciencenigeria.org/research",
+    "first_seen": "2026-10-28T00:39:58.181238+00:00"
+  },
+  "596e83178b8cdf903262fe759c27773ba45b016b9c403b407f4ac477bd737004": {
+    "organization": "Active Research Lab (Preprint)",
+    "title": "Research Lab Lead on: The Limits of Simulated Societies: How Post-Training and Survey Fine-Tuning...",
+    "apply_url": "http://arxiv.org/abs/2609.25760v1",
+    "first_seen": "2026-10-28T00:39:58.181238+00:00"
+  },
+  "1eefb9c13af5bc87b82bfa55ed546f85c76083a2ec1401d53f65e35b3da0fe95": {
+    "organization": "Active Research Lab (Preprint)",
+    "title": "Research Lab Lead on: Interpretable AI plus Handheld, Portable Retinal Photographs: A Low-Cost Gl...",
+    "apply_url": "http://arxiv.org/abs/2609.25697v1",
+    "first_seen": "2026-10-28T00:39:58.181238+00:00"
+  },
+  "f559afc2e7654e6dff4d7ef6618db5a1cd1258f22f57e5de209424896436d12e": {
+    "organization": "Active Research Lab (Preprint)",
+    "title": "Research Lab Lead on: Configurable Multi-Stage Vision Pipeline for Crop Disease and Pest Diagnosi...",
+    "apply_url": "http://arxiv.org/abs/2609.21651v2",
+    "first_seen": "2026-10-28T00:39:58.181238+00:00"
+  },
+  "b74bd83727c626dacc06758edcd78f109fc85a7ea0cf41cdb39fc34d900086a7": {
+    "organization": "Active Research Lab (Preprint)",
+    "title": "Research Lab Lead on: Adesua: Development and Feasibility Study of an AI WhatsApp Bot for Science...",
+    "apply_url": "http://arxiv.org/abs/2605.15376v1",
+    "first_seen": "2026-10-28T00:39:58.181238+00:00"
+  },
+  "2a74a9c4fa694fd53d884557fd1cba70486d0828950dc93b6ff83161986b9615": {
+    "organization": "Active Research Lab (Preprint)",
+    "title": "Research Lab Lead on: TinyBayes: Closed-Form Bayesian Inference via Jacobi Prior for Real-Time Im...",
+    "apply_url": "http://arxiv.org/abs/2605.06333v1",
+    "first_seen": "2026-10-28T00:39:58.181238+00:00"
+  }
+}
