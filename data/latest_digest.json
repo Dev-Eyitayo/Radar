@@ -40,16 +40,16 @@
   },
   {
     "organization": "Moniepoint",
-    "title": "Engineering Relations Partner",
+    "title": "Detection and Response Engineer",
     "category": "Tech / Early-Career Role",
-    "location": "Remote, Portugal",
-    "apply_url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4997794101",
-    "portal_url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4997794101",
-    "description": "About Moniepoint Moniepoint Inc. is Africa’s all-in-one financial platform, helping 20 million businesses and individuals access seamless payments, banking, credit, cross-border, and business management tools each month.&nbsp; As Nigeria’s largest merchant acquirer, we power most of the country’s po...",
+    "location": "Remote, Nigeria",
+    "apply_url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4683154101",
+    "portal_url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4683154101",
+    "description": "Who we are Moniepoint Inc. is Africa’s all-in-one financial ecosystem, helping 10 million businesses and individuals access seamless payments, banking, credit, and business management tools since 2019. As Nigeria’s largest merchant acquirer, it powers most of the country’s Point of Sale (POS) transa...",
     "nysc_status": "No NYSC Required / Tech Track",
-    "nysc_reason": "Tech Role: Skills-based qualification (No NYSC clause)",
-    "id": "90b731971f835a58a97bdaedbd6adb79f38dcba6322d36c9e811be8290fcbd0d",
-    "is_brand_new": false
+    "nysc_reason": "Eligible: No NYSC barrier specified",
+    "id": "3c2e0f808d4c49b08a1f655799cbfde0ffa6165651b17a880a67cc560c5decdd",
+    "is_brand_new": true
   },
   {
     "organization": "Moniepoint",
@@ -62,6 +62,19 @@
     "nysc_status": "No NYSC Required / Tech Track",
     "nysc_reason": "Tech Role: Skills-based qualification (No NYSC clause)",
     "id": "1593ea0007e02b73b10f84e380b57beffff05819a08755604ef47dd7f3dd336a",
+    "is_brand_new": false
+  },
+  {
+    "organization": "Moniepoint",
+    "title": "Engineering Relations Partner",
+    "category": "Tech / Early-Career Role",
+    "location": "Remote, Portugal",
+    "apply_url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4997794101",
+    "portal_url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4997794101",
+    "description": "About Moniepoint Moniepoint Inc. is Africa’s all-in-one financial platform, helping 20 million businesses and individuals access seamless payments, banking, credit, cross-border, and business management tools each month.&nbsp; As Nigeria’s largest merchant acquirer, we power most of the country’s po...",
+    "nysc_status": "No NYSC Required / Tech Track",
+    "nysc_reason": "Tech Role: Skills-based qualification (No NYSC clause)",
+    "id": "90b731971f835a58a97bdaedbd6adb79f38dcba6322d36c9e811be8290fcbd0d",
     "is_brand_new": false
   },
   {
@@ -405,7 +418,7 @@
     "published_date": "2026-10-27",
     "nysc_status": "No NYSC Required (Direct Author Outreach)",
     "nysc_reason": "Academic collaboration and RA support for published preprints have zero NYSC requirements.",
-    "is_brand_new": true
+    "is_brand_new": false
   },
   {
     "id": "b74bd83727c626dacc06758edcd78f109fc85a7ea0cf41cdb39fc34d900086a7",
