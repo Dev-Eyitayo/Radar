@@ -40,7 +40,7 @@ ACTIVE_RESEARCH_LABS = [
         "category": "Academic Research Assistant",
         "research_focus": "Telecommunications, Embedded Linux, IoT Sensor Data Gathering",
         "location": "Ibadan, Oyo State",
-        "lab_url": "https://tech.ui.edu.ng/electrical-engineering",
+        "lab_url": "https://tech.ui.edu.ng/electrical-and-electronic-engineering",
         "pitch_angle": "Writing backend data collection services, socket event loggers, and automated experiment scripts in Python."
     },
 

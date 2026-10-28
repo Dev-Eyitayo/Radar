@@ -57,8 +57,8 @@ ACTIVE_GT_PORTALS = [
         "organization": "ARM Holding",
         "title": "ARM Young Talent Programme (AYTP)",
         "category": "Graduate Internship / Pre-NYSC",
-        "url": "https://www.arm.com.ng/careers/",
-        "apply_url": "https://arm.com.ng/young-talent-programme",
+        "url": "https://armholdco.com",
+        "apply_url": "https://arm.seamlesshiring.com",
         "description": "Talent development program designed for high-achieving fresh graduates awaiting NYSC to fast-track career development in technology and asset management.",
         "nysc_friendly": True,
         "location": "Lagos"
