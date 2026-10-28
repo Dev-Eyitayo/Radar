@@ -21,10 +21,9 @@ class AlertDispatcher:
 
         logger.info(f"[Dispatcher] Dispatching alerts for {len(new_opportunities)} new opportunities...")
 
-        # 1. Telegram Push Alerts
+        # 1. Telegram Consolidated Digest Alert
         if self.telegram_notifier.is_configured():
-            for opp in new_opportunities:
-                self.telegram_notifier.send_alert(opp)
+            self.telegram_notifier.send_digest(new_opportunities)
         else:
             logger.info("[Dispatcher] Telegram not yet configured. Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in .env or GitHub Secrets for phone push alerts.")
 

@@ -1,6 +1,6 @@
 """
 Telegram Bot Notification Client for Radar.
-Sends real-time lock-screen push alerts directly to your phone via Telegram.
+Sends consolidated digests directly to your phone via Telegram.
 """
 
 import logging
@@ -17,49 +17,71 @@ class TelegramNotifier:
     def is_configured(self) -> bool:
         return bool(self.bot_token and self.chat_id)
 
-    def send_alert(self, opp: dict) -> bool:
-        if not self.is_configured():
-            return False
-
-        org = opp.get("organization", "Company")
-        title = opp.get("title", "New Opportunity")
-        loc = opp.get("location", "Nigeria")
-        cat = opp.get("category", "")
-        url = opp.get("apply_url") or opp.get("lab_url") or opp.get("url", "")
-        pi = opp.get("pi_name", "")
-        nysc_tag = opp.get("nysc_status", "No NYSC Required")
-
-        message = (
-            f"🎯 <b>NEW RADAR ALERT (NO NYSC)</b>\n\n"
-            f"💼 <b>{title}</b>\n"
-            f"🏢 <b>Org:</b> {org} ({loc})\n"
-            f"🏷️ <b>Category:</b> {cat}\n"
-            f"✅ <b>Eligibility:</b> {nysc_tag}\n"
-        )
-
-        if pi:
-            message += f"👨‍🏫 <b>Lead PI / Contact:</b> {pi}\n"
-
-        message += f"\n🔗 <a href='{url}'>Click Here to View & Apply</a>"
-
+    def _post_message(self, text: str) -> bool:
+        """Send a single message to the configured chat."""
         api_url = f"https://api.telegram.org/bot{self.bot_token}/sendMessage"
         try:
             resp = requests.post(
                 api_url,
                 json={
                     "chat_id": self.chat_id,
-                    "text": message,
+                    "text": text,
                     "parse_mode": "HTML",
-                    "disable_web_page_preview": False
+                    "disable_web_page_preview": True
                 },
                 timeout=10
             )
             if resp.status_code == 200:
-                logger.info(f"[Telegram] Sent push alert for: {title}")
                 return True
             else:
                 logger.warning(f"[Telegram] Send failed: {resp.text}")
         except Exception as e:
             logger.error(f"[Telegram] Exception: {e}")
-
         return False
+
+    def send_digest(self, opportunities: list[dict]) -> bool:
+        """Consolidates multiple opportunities into a single clean message."""
+        if not self.is_configured() or not opportunities:
+            return False
+
+        total = len(opportunities)
+        header = f"🎯 <b>Radar Alert: {total} New Opportunities Detected</b>\n\n"
+
+        chunks = []
+        current_chunk = header
+
+        for i, opp in enumerate(opportunities, 1):
+            org = opp.get("organization", "Company / Lab")
+            title = opp.get("title", "Opportunity")
+            loc = opp.get("location", "Nigeria")
+            url = opp.get("apply_url") or opp.get("lab_url") or opp.get("url", "")
+            pi = opp.get("pi_name", "")
+
+            item_text = f"<b>{i}. {title}</b>\n🏢 {org} &bull; <i>{loc}</i>\n"
+            if pi:
+                item_text += f"👨‍🏫 Contact / PI: {pi}\n"
+            item_text += f"👉 <a href='{url}'>View & Apply</a>\n\n"
+
+            # Check if adding this item would exceed Telegram's 4096 limit
+            if len(current_chunk) + len(item_text) > 3800:
+                chunks.append(current_chunk.strip())
+                current_chunk = f"🎯 <b>Radar Alert (Cont'd)</b>\n\n" + item_text
+            else:
+                current_chunk += item_text
+
+        if current_chunk.strip():
+            chunks.append(current_chunk.strip())
+
+        all_ok = True
+        for chunk in chunks:
+            ok = self._post_message(chunk)
+            if not ok:
+                all_ok = False
+
+        if all_ok:
+            logger.info(f"[Telegram] Delivered consolidated digest for {total} opportunities.")
+        return all_ok
+
+    def send_alert(self, opp: dict) -> bool:
+        """Fallback for sending a single standalone alert."""
+        return self.send_digest([opp])
