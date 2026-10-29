@@ -49,7 +49,7 @@
     "nysc_status": "No NYSC Required / Tech Track",
     "nysc_reason": "Eligible: No NYSC barrier specified",
     "id": "3c2e0f808d4c49b08a1f655799cbfde0ffa6165651b17a880a67cc560c5decdd",
-    "is_brand_new": true
+    "is_brand_new": false
   },
   {
     "organization": "Moniepoint",
@@ -127,19 +127,6 @@
     "nysc_status": "No NYSC Required / Skills-First",
     "nysc_reason": "Eligible: No NYSC barrier specified",
     "id": "d0b406ae5779d1fdd711d9b960490bc6a7653adb735a68802a390a0c78a60d46",
-    "is_brand_new": false
-  },
-  {
-    "organization": "FairMoney",
-    "title": "Software Engineer - Lending",
-    "category": "Fintech / Tech Scaleup",
-    "location": "lagos, Nigeria",
-    "apply_url": "https://apply.workable.com/fairmoney/j/0BD4D2A00E/",
-    "portal_url": "https://apply.workable.com/fairmoney/j/0BD4D2A00E/",
-    "description": "Open position at FairMoney (lagos, Nigeria).",
-    "nysc_status": "No NYSC Required / Skills-First",
-    "nysc_reason": "Tech Role: Skills-based qualification (No NYSC clause)",
-    "id": "a654d2744025e8c312dfd765bb3146be7410d946eacd7d29497d4d996aa577f2",
     "is_brand_new": false
   },
   {
