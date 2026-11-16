@@ -14,19 +14,6 @@
   },
   {
     "organization": "Moniepoint",
-    "title": "Data Scientist (Fraud)",
-    "category": "Tech / Early-Career Role",
-    "location": "Remote, London, United Kingdom",
-    "apply_url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4737173101",
-    "portal_url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4737173101",
-    "description": "&nbsp; Who we are Ranked in 2024 by the Financial Times, Moniepoint is Africa’s fastest-growing fintech, trusted by over 10 million business and individual accounts, processing billions of Naira in transactions monthly .&nbsp; Our mission is to enable financial happiness for every African, everywher...",
-    "nysc_status": "No NYSC Required / Tech Track",
-    "nysc_reason": "Eligible: No NYSC barrier specified",
-    "id": "53befde27ab70fb825abf1a5abed30c64ea3526a31776b8439f6e82c5af07b1e",
-    "is_brand_new": false
-  },
-  {
-    "organization": "Moniepoint",
     "title": "Engineering Relations Partner",
     "category": "Tech / Early-Career Role",
     "location": "Remote, India; Remote, Kenya; Remote, Lagos, Nigeria; Remote, Pakistan; Remote, Poland; Remote, South Africa; Remote, Spain",
@@ -75,19 +62,6 @@
     "nysc_status": "No NYSC Required / Skills-First",
     "nysc_reason": "Eligible: No NYSC barrier specified",
     "id": "a8d6bde10a631b93b28f52e629fb4762c2fab357a3405f99d539f114b541f619",
-    "is_brand_new": false
-  },
-  {
-    "organization": "Kuda Bank",
-    "title": "IOS Engineer",
-    "category": "Fintech / Tech Scaleup",
-    "location": "Lagos, Nigeria",
-    "apply_url": "https://apply.workable.com/kuda/j/D6565D9297/",
-    "portal_url": "https://apply.workable.com/kuda/j/D6565D9297/",
-    "description": "Open position at Kuda Bank (Lagos, Nigeria).",
-    "nysc_status": "No NYSC Required / Skills-First",
-    "nysc_reason": "Eligible: No NYSC barrier specified",
-    "id": "d0b406ae5779d1fdd711d9b960490bc6a7653adb735a68802a390a0c78a60d46",
     "is_brand_new": false
   },
   {
@@ -322,24 +296,24 @@
     "is_brand_new": false
   },
   {
-    "id": "b18c061434ced9af597310ad328d9f9a75dfc545e99e907a162ca679276c55a8",
+    "id": "173c8343430bfeb864a17acf31215b92d676f7342764fd6ba0b55a2e015084c4",
     "organization": "Active Research Lab (Preprint)",
     "department": "Computational Science / AI",
     "title": "Research Lab Lead on: NaijaFacts: A Framework for Disentangling Language from Knowledge in Facts ...",
     "pi_name": "Zainab Afolabi, Nikita Kozodoi, Jack Butler",
     "pi_role": "Publishing Authors & Principal Investigators",
-    "email": "Contact via http://arxiv.org/abs/2611.06504v2",
+    "email": "Contact via http://arxiv.org/abs/2611.06504v3",
     "category": "Academic Research Assistant",
     "location": "Nigeria / West Africa Research",
-    "lab_url": "http://arxiv.org/abs/2611.06504v2",
-    "apply_url": "http://arxiv.org/abs/2611.06504v2",
+    "lab_url": "http://arxiv.org/abs/2611.06504v3",
+    "apply_url": "http://arxiv.org/abs/2611.06504v3",
     "research_focus": "NaijaFacts: A Framework for Disentangling Language from Knowledge in Facts about Nigeria",
     "pitch_angle": "Referencing their recent paper published on 2026-11-04 and offering to build API pipelines, test harnesses, or data scrapers.",
     "description": "Multilingual benchmarks for African languages mostly translate generic questions into local languages, measuring linguistic competence but not whether models know facts about Afric...",
     "published_date": "2026-11-04",
     "nysc_status": "No NYSC Required (Direct Author Outreach)",
     "nysc_reason": "Academic collaboration and RA support for published preprints have zero NYSC requirements.",
-    "is_brand_new": false
+    "is_brand_new": true
   },
   {
     "id": "596e83178b8cdf903262fe759c27773ba45b016b9c403b407f4ac477bd737004",
