@@ -62,7 +62,7 @@
     "nysc_status": "No NYSC Required / Tech Track",
     "nysc_reason": "Eligible: No NYSC barrier specified",
     "id": "d489f76519da6b8146b9589c272b736367cc73dfad72f5331d468d87bc468a3b",
-    "is_brand_new": true
+    "is_brand_new": false
   },
   {
     "organization": "Moniepoint",
@@ -75,7 +75,7 @@
     "nysc_status": "No NYSC Required / Tech Track",
     "nysc_reason": "Eligible: No NYSC barrier specified",
     "id": "bfe5c6121691cc4f412bcd666600c5349fc040490d1fb2fb9606a3f317447a08",
-    "is_brand_new": true
+    "is_brand_new": false
   },
   {
     "organization": "Kuda Bank",
